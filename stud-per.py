@@ -41,7 +41,8 @@ def main():
             "Sample Question Papers Practiced":number_of_peper_solved
         }
         prediction = predict_data(user_data)
-        st.success("your prediction result is", round(prediction,2))
+        st.success(f"Your prediction result is {round(prediction[0], 2)}")
+
     
 if __name__ == "__main__":
     main()
