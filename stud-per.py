@@ -41,7 +41,7 @@ def main():
             "Sample Question Papers Practiced":number_of_peper_solved
         }
         prediction = predict_data(user_data)
-        st.success(f"your prediciotn result is {prediction}")
+        st.success(f"your prediction result is {prediction}")
     
 if __name__ == "__main__":
     main()
