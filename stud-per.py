@@ -23,7 +23,7 @@ def predict_data(data):
     return prediction
 
 def main():
-    st.title("student performnce perdiction")
+    st.title("student performnce prediction")
     st.write("enter your data to get a prediction for your performance")
     
     hour_sutdied = st.number_input("Hours studied",min_value = 1, max_value = 10 , value = 5)
